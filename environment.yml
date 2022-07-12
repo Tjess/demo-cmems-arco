@@ -1,4 +1,4 @@
-name: example-environment
+name: env-demo-cmems-arco
 channels:
   - conda-forge
   - defaults
@@ -6,6 +6,7 @@ dependencies:
   - python=3.9
   - aiohttp~=3.8.1
   - cartopy~=0.20.2
+  - fsspec
   - matplotlib
   - numpy
   - requests
